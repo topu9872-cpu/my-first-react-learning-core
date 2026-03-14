@@ -3,6 +3,7 @@ import './App.css'
 import Todo  from './todo';
 import Foods from './todo';
 import Batsman from './batsMan';
+import Users from './users';
 function App() {
 
   const click= ()=>{
@@ -28,7 +29,7 @@ function App() {
 
 
 <Batsman></Batsman>
-
+<Users></Users>
 
 <button onClick={handleC}>click me</button>
 <button onClick={function handle(){
